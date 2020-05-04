@@ -1,0 +1,1 @@
+D:\AUO\02_SmartTest\Temperature\Temperature\Temperature\bin\Debug\Temperature.exe.config
