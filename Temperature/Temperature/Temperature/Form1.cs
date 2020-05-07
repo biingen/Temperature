@@ -490,7 +490,7 @@ namespace Temperature
             float current_value = 0;
 
             string t = Application.StartupPath + "\\_TemperatureLog_" + DateTime.Now.ToString("yyyyMMddHHmmss") + ".txt";
-            StreamWriter MYFILE = new StreamWriter(t, false, Encoding.Unicode);
+            StreamWriter MYFILE = new StreamWriter(t, false, Encoding.UTF8);
 
             if (from_value < to_value)
             {
